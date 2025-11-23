@@ -1,1 +1,6 @@
-Spring BootとThymeleafの練習で簡単なメモアプリを作っています。
+
+
+## How to run
+- ./mvnw spring-boot:run
+- Open http://localhost:8080/
+
