@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MemoController {
     private final MemoService memoService;
 
-    private MemoController(MemoService memoService){
+    public MemoController(MemoService memoService){
         this.memoService = memoService;
     }
 
